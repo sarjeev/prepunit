@@ -1,0 +1,130 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin-left: 20px;
+  margin-right:20px;
+  font-family: 'Verdana';
+  color: black;
+  background-color: #CACDD0  ;
+}
+
+main{
+  background-color: white;
+  padding: 20px 10px;
+  border-left: 3px solid grey;
+  border-right: 3px solid grey;
+}
+
+section{
+  margin:20px 0;
+  padding: 5px;
+}
+
+h1,h2,h3,h4,h5{
+  font-family:times;
+  color:#1d1d60;
+  font-weight:bold;
+  font-size: 25px;
+}
+
+.h1{
+
+}
+
+.img{
+  width:100%;
+  margin-top: 22px;
+  margin-bottom:22px;
+  height:200px;
+
+}
+
+
+
+a:link{
+  color:black;
+}
+a:visited,
+.link--visited{
+  color: black;
+}
+a:hover{
+  font-family:monospace;
+}
+a:active{
+  color: blue;
+}
+
+.colour {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+
+.colour--primary {
+	background: black;
+}
+
+.colour--secondary {
+	background: #1d1d60;
+}
+
+.colour--dark{
+	background: grey;
+}
+
+.colour--light {
+	background: white;
+}
+
+.colour--highlight {
+	background:  #8a8dcf;
+}
+
+
+
+@media (min-width: 400px) {
+	main {
+		width: 400px;
+		margin: auto;
+	}
+
+.Design {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: white;
+  min-height:300px;
+  border-radius: 20px;
+  border-top: 10px solid #8a8dcf;
+  border-bottom: 5px solid #d1d2da;
+  width:auto;
+  margin-top:40px;
+  margin-bottom: 40px;
+}
+
+.Design:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+ .Design img{
+   margin-top: 10px;
+   border-top-left-radius:5px;
+   border-top-right-radius: 5px;
+   height: 200px;
+   margin-bottom: 20px;
+ }
+
+.button{
+  margin-top: 29px;
+  margin-left:20px;
+  padding-right:18px;
+}
+
+@media screen and (min-width:250px) {
+  .Design {
+    width:auto;
+  }
