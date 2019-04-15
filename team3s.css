@@ -124,7 +124,7 @@ a:active{
   padding-right:18px;
 }
 
-@media screen and (min-width:250px) {
+@media screen and (min-width:50px) {
   .Design {
     width:auto;
   }
